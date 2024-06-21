@@ -1,10 +1,7 @@
 # Written by Falsonix on 6/21/2024
-#
-#
-# Please note that some of the programming characters are not included in this script to avoid syntax issues
 
 # List of allowed characters, make sure that the requested string does not contain any of these
-allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()-+=[]/|,.<>;:"
+allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()-+=[]{}/\\|,.<>;:'\""
 
 def count_individual_characters(phrase):
     # Convert the phrase to uppercase to match the allowed characters
@@ -36,7 +33,7 @@ def count_characters(phrase):
     for char in phrase:
         if char in char_count:
             total_chars += 1  # Increment total character count for later :)
-    return char_count
+    return total_chars
 
 # Ask the user for their desired phrase
 user_input = input("Please input the phrase that you wish to print: ")
@@ -57,4 +54,4 @@ for char, count in character_count.items():
         print(f"{char}: {count}")
 
 # Print the total number of letters in the phrase, ignoring spaces
-print(f"Total characters (excluding spaces): f{total_characters}")
+print(f"Total characters (excluding spaces): {total_characters}")
