@@ -55,3 +55,6 @@ for char, count in character_count.items():
 
 # Print the total number of letters in the phrase, ignoring spaces
 print(f"Total characters (excluding spaces): {total_characters}")
+
+# Wait for the user to hit the enter key before closing the Python window
+input("Press enter to continue.....")
