@@ -4,5 +4,4 @@ Fully 3D Printable configurable MOLLE letter plates
 Originally came up with the idea for the Backpack Boosters contest on Printables.com, but then thought that I could make the process of printing out characters more streamlined with a Python script.
 
 # How to use
-Download and run the `configurator.py` script and it will query the amount of each character that you will need to print in order to make your desired sentence/phrase.
-**Please note that some of the programming symbols are not included in the script and will be ignored**, this is due to the fact that they negatively impact the operation of the script.
+Download and run the `configurator.py` script and it will query the amount of each character that you will need to print in order to make your desired sentence/phrase. This is assuming that you have a modern version of Python installed on your machine, if not then please install the latest stable release from https://www.python.org/downloads/.
